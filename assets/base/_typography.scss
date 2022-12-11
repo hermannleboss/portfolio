@@ -1,0 +1,35 @@
+* {
+  font-family: 'Space Grotesk', serif;
+}
+
+.text {
+  font-style: normal;
+
+  &-body {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &-heading {
+    font-weight: 700;
+
+    &-xl {
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -2.5px;
+    }
+
+    &-l {
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -1.5px;
+
+    }
+
+    &-m {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}
